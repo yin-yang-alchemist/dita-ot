@@ -35,7 +35,7 @@ See the accompanying license.txt file for applicable licenses.
     <xsl:attribute name="border-color">black</xsl:attribute>
     <xsl:attribute name="border-width">2pt</xsl:attribute>
     <xsl:attribute name="padding">3pt</xsl:attribute>
-    <xsl:attribute name="keep-together">always</xsl:attribute>
+    <xsl:attribute name="keep-together.within-page">always</xsl:attribute>
   </xsl:attribute-set>
 
   <xsl:attribute-set name="hazardstatement.title" use-attribute-sets="hazardstatement.cell common.title">
